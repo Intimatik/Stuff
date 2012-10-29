@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.javabean.android.gunexam.views.TaskListItem xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/question_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/some_text"
+        android:textColor="@color/Black"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="50" >
+
+        <RadioButton
+            android:id="@+id/radio0"
+            style="@android:style/Widget.CompoundButton.RadioButton"
+            android:layout_width="fill_parent"
+            android:paddingLeft="60sp"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            style="@android:style/Widget.CompoundButton.RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="60sp"
+            android:textColor="@color/Black" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            style="@android:style/Widget.CompoundButton.RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="60sp"
+            android:textColor="@color/Black" />
+
+        <RadioButton
+            android:id="@+id/RadioButton01"
+            style="@android:style/Widget.CompoundButton.RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:paddingLeft="60sp"
+            android:textColor="@color/Black" />
+
+        <RadioButton
+            android:id="@+id/RadioButton02"
+            style="@android:style/Widget.CompoundButton.RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:paddingLeft="60sp"
+            android:textColor="@color/Black" />
+    </RadioGroup>
+
+</ru.javabean.android.gunexam.views.TaskListItem>

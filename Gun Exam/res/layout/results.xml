@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/shape"
+    android:gravity="top"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:gravity="center_vertical"
+        android:text="@string/results_header"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Black" />
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/results_right" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_centerHorizontal="true" -->
+    <!-- android:layout_centerVertical="true" -->
+    <!-- android:text="@string/right_string" -->
+    <!-- android:textColor="@color/Red" /> -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/results_right" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_centerHorizontal="true" -->
+    <!-- android:layout_centerVertical="true" -->
+    <!-- android:text="@string/wrong_string" -->
+    <!-- android:textColor="@color/Red" /> -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/results_wrong" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_below="@+id/results_right" -->
+    <!-- android:layout_centerHorizontal="true" -->
+    <!-- android:layout_marginTop="22dp" -->
+    <!-- android:text="@string/right_string" -->
+    <!-- android:textColor="@color/Green" /> -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/results_wrong" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_below="@+id/results_right" -->
+    <!-- android:layout_centerHorizontal="true" -->
+    <!-- android:layout_marginTop="22dp" -->
+    <!-- android:text="@string/right_string" -->
+    <!-- android:textColor="@color/Green" /> -->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="@string/right_string"
+        android:textColor="@color/Red" />
+
+    <TextView
+        android:id="@+id/results_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/Red" android:layout_centerHorizontal="true" android:text="@string/app_name"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/results_right"
+        android:layout_centerHorizontal="true"
+        android:text="@string/wrong_string"
+        android:textColor="@color/Green" android:layout_marginTop="32dp"/>
+
+    <TextView
+        android:id="@+id/results_wrong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/Green" android:text="@string/app_name"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5sp"
+        android:minHeight="80sp"
+        android:minWidth="80sp" />
+
+</RelativeLayout>
